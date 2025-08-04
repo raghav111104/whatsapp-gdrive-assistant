@@ -25,6 +25,8 @@ Automate Google Drive actions via WhatsApp using n8n — list, delete, move, and
   * OAuth2 client credentials
 * OpenAI (optional — if using GPT)
 
+> ⚠️ All Google Drive files or folders you want to interact with must be **owned by or shared with** the Google account used in your OAuth2 credentials.
+
 ---
 
 ### 📥 Setup Instructions
@@ -112,7 +114,7 @@ Every action is logged to a Google Sheet:
 
 ### 🎥 Demo Video
 
-[Watch demo here](https://your-demo-link.com)
+[Watch demo here](https://your-demo-link.com) 
 
 ---
 
@@ -129,4 +131,5 @@ Every action is logged to a Google Sheet:
 
 * You can expand this to support uploads, renames, or reminders.
 * AI summarization works only on readable text content.
-* You must import the workflow manually from the UI using `workflow.json`.
+* You must import the workflow manually from the UI using `workflow.json`
+* ✅ Files/folders **must be owned by or shared with the authenticated Google account** to be accessed or modified.
