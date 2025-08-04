@@ -93,14 +93,20 @@ The system maps them to the correct command automatically.
 
 ---
 
-### 📜 Logs
+📜 Logs
+Each WhatsApp command (LIST, DELETE, MOVE, SUMMARY) is logged in a connected Google Sheet with the following details:
 
-Every action is logged to a Google Sheet:
+Timestamp
 
-* Timestamp
-* Command
-* WhatsApp sender
-* Status
+Command issued
+
+File name (if applicable)
+
+Source and/or destination folder
+
+WhatsApp sender number
+
+Result message (e.g. success, file not found, failed)
 
 ---
 
