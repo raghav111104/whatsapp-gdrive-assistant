@@ -93,20 +93,16 @@ The system maps them to the correct command automatically.
 
 ---
 
-📜 Logs
-Each WhatsApp command (LIST, DELETE, MOVE, SUMMARY) is logged in a connected Google Sheet with the following details:
+### 📜 Logs
 
-Timestamp
+Each WhatsApp command (`LIST`, `DELETE`, `MOVE`, `SUMMARY`) is logged in a connected Google Sheet with the following details:
 
-Command issued
-
-File name (if applicable)
-
-Source and/or destination folder
-
-WhatsApp sender number
-
-Result message (e.g. success, file not found, failed)
+* Timestamp
+* Command issued
+* File name (if applicable)
+* Source and/or destination folder
+* WhatsApp sender number
+* Result message (e.g. success, file not found, failed)
 
 ---
 
@@ -120,7 +116,7 @@ Result message (e.g. success, file not found, failed)
 
 ### 🎥 Demo Video
 
-[Watch demo here](https://your-demo-link.com) 
+[Watch demo here](https://your-demo-link.com) *(Replace with actual link)*
 
 ---
 
