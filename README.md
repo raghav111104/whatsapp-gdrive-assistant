@@ -1,6 +1,6 @@
 ## 📁 WhatsApp-Driven Google Drive Assistant (n8n Workflow)
 
-Automate Google Drive actions via WhatsApp using n8n — list, delete, move, and summarize documents by sending simple commands like `LIST /ProjectX` or `SUMMARY /Reports`.
+Automate Google Drive actions via WhatsApp using n8n — list, delete, move, and summarize documents by sending simple commands like `LIST /ProjectX`, `DELETE /ProjectX/file.pdf`, `MOVE /ProjectX/file.pdf to /Archive`, or `SUMMARY /Reports`.
 
 ---
 
@@ -70,12 +70,12 @@ n8n will be accessible at: [http://localhost:5678](http://localhost:5678)
 
 ### 🔀 Supported Commands (via WhatsApp)
 
-| Command                         | Example                              | Description                             |
-| ------------------------------- | ------------------------------------ | --------------------------------------- |
-| `LIST /Folder`                  | `LIST /ProjectX`                     | Lists all files in `/ProjectX`          |
-| `DELETE /Folder/file.pdf`       | `DELETE /ProjectX/report.pdf`        | Sends confirmation and deletes file     |
-| `MOVE /Source/file.pdf /Target` | `MOVE /ProjectX/report.pdf /Archive` | Moves a file between folders            |
-| `SUMMARY /Folder`               | `SUMMARY /Reports`                   | Sends summaries of all text-based files |
+| Command                            | Example                                 | Description                             |
+| ---------------------------------- | --------------------------------------- | --------------------------------------- |
+| `LIST /Folder`                     | `LIST /ProjectX`                        | Lists all files in `/ProjectX`          |
+| `DELETE /Folder/file.pdf`          | `DELETE /ProjectX/report.pdf`           | Sends confirmation and deletes file     |
+| `MOVE /Source/file.pdf to /Target` | `MOVE /ProjectX/report.pdf to /Archive` | Moves a file between folders            |
+| `SUMMARY /Folder`                  | `SUMMARY /Reports`                      | Sends summaries of all text-based files |
 
 ---
 
@@ -85,6 +85,7 @@ You can also use phrases like:
 
 * “Can you show what’s in /Reports?”
 * “Please remove /ProjectX/oldfile.pdf”
+* “Move report.pdf from ProjectX to Archive”
 
 The system maps them to the correct command automatically.
 
@@ -111,7 +112,7 @@ Every action is logged to a Google Sheet:
 
 ### 🎥 Demo Video
 
-[Watch demo here](https://your-demo-link.com) 
+[Watch demo here](https://your-demo-link.com)
 
 ---
 
