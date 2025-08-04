@@ -44,14 +44,13 @@ Create a `.env` file using the provided `.env.sample`:
 cp .env.sample .env
 ```
 
-Fill in the required values:
+Then fill in the required values with your own credentials:
 
-```env
-TWILIO_AUTH_TOKEN=...
-GOOGLE_CLIENT_ID=...
-GOOGLE_CLIENT_SECRET=...
-OPENAI_API_KEY=... (optional)
-```
+* Twilio Account SID and Auth Token
+* Google OAuth2 Client ID, Secret, Refresh Token, and Redirect URI
+* (Optional) OpenAI API Key if summarization is enabled
+
+> ⚠️ **You must have working Twilio and Google Drive credentials** for the workflow to function.
 
 #### 3. Start n8n via Docker
 
@@ -60,6 +59,12 @@ docker-compose up -d
 ```
 
 n8n will be accessible at: [http://localhost:5678](http://localhost:5678)
+
+#### 4. Import the Workflow
+
+1. Open n8n in your browser
+2. Click the three-dot menu (⋮) in the top-right
+3. Select **Import** and choose the `workflow.json` file from this repo
 
 ---
 
@@ -106,7 +111,7 @@ Every action is logged to a Google Sheet:
 
 ### 🎥 Demo Video
 
-[Watch demo here](https://your-demo-link.com) *(Replace with actual link)*
+[Watch demo here](https://your-demo-link.com) 
 
 ---
 
@@ -123,3 +128,4 @@ Every action is logged to a Google Sheet:
 
 * You can expand this to support uploads, renames, or reminders.
 * AI summarization works only on readable text content.
+* You must import the workflow manually from the UI using `workflow.json`.
