@@ -122,7 +122,7 @@ https://drive.google.com/drive/folders/1axpz6TuCsnqu7-ezgxYj-h8YgkhXPfTP?usp=dri
 
 ### 📁 Files Included
 
-* `WhatsApp-Driven Google Drive Assistants (2).json` — Import this into n8n
+* `WhatsApp-Driven Google Drive Assistants.json` — Import this into n8n
 * `.env.sample` — Template for environment variables
 * `docker-compose.yml` — Start n8n via Docker
 * README — You’re reading it!
