@@ -116,7 +116,7 @@ Each WhatsApp command (`LIST`, `DELETE`, `MOVE`, `SUMMARY`) is logged in a conne
 
 ### 🎥 Demo Video
 
-[Watch demo here](https://your-demo-link.com) *(Replace with actual link)*
+https://drive.google.com/drive/folders/1axpz6TuCsnqu7-ezgxYj-h8YgkhXPfTP?usp=drive_link
 
 ---
 
