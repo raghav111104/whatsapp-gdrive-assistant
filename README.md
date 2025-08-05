@@ -122,7 +122,7 @@ Each WhatsApp command (`LIST`, `DELETE`, `MOVE`, `SUMMARY`) is logged in a conne
 
 ### 📁 Files Included
 
-* `workflow.json` — Import this into n8n
+* `WhatsApp-Driven Google Drive Assistants (2).json` — Import this into n8n
 * `.env.sample` — Template for environment variables
 * `docker-compose.yml` — Start n8n via Docker
 * README — You’re reading it!
